@@ -14,7 +14,7 @@ import pandas as pd
 
 ########################################################################################
 
-ufo_path = '~/Desktop/STA 141B/Project/ufo-sightings/scrubbed.csv'
+ufo_path = '~/Desktop/STA 141B/141B-Final-Project/ufo-sightings/scrubbed.csv'
 
 # http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
 ufos = pd.read_csv(ufo_path, header=0,
