@@ -7,7 +7,7 @@ Madeline Ye - <br>
 
 # <center> UFO Sightings and Natural Disasters: A Coincidence? </center>
 
-In this analysis, we'll be looking at two data sets, UFO sightings in the United States and natural disasters from the years 1953 to 2013. We'll first be exploring the data sets indivdually before investigating whether sightings coincide with natural disaters. The UFO sightings data was scraped from the <a href='http://www.nuforc.org/webreports.html'>National UFO Reporting Center Database</a> and uploaded to <a href='https://www.kaggle.com/NUFORC/ufo-sightings'>Kaggle</a> for download. The download came with 2 files (complete and scrubbed); We'll be working with the scrubbed version which has complete reports. The natural disasters data was downloaded from the  <a href='https://www.fema.gov/openfema-dataset-disaster-declarations-summaries-v1'>Federal Emergency Management Agency (FEMA)</a> and has full documenation.
+In this analysis, we'll be looking at two data sets, UFO sightings in the United States and natural disasters from the years 1965 to 2013. We'll first be exploring the data sets indivdually before investigating whether sightings coincide with natural disaters. The UFO sightings data was scraped from the <a href='http://www.nuforc.org/webreports.html'>National UFO Reporting Center Database</a> and uploaded to <a href='https://www.kaggle.com/NUFORC/ufo-sightings'>Kaggle</a> for download. The download came with 2 files (complete and scrubbed); We'll be working with the scrubbed version which has complete reports. The natural disasters data was downloaded from the  <a href='https://www.fema.gov/openfema-dataset-disaster-declarations-summaries-v1'>Federal Emergency Management Agency (FEMA)</a> and has full documenation.
 
 # Data Description:
 
