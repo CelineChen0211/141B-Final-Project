@@ -2,7 +2,7 @@
 Nicholas Alonzo - 998455301 <br>
 Ethan Bell - <br>
 Hanxiaoxin Wang - 913459751 <br>
-Madeline Ye - 998108849<br>
+Madeline Ye - 998108849 <br>
 </div>
 
 # UFO Sightings & Natural Disasters: A Coincidence?
@@ -48,7 +48,7 @@ __longitude__: longitude of county affected by disaster from geocoding county an
 ## Pre-Processing Summary
 
 NOTE: Full pre-processing steps are in PreProcessUFO\_nick.ipynb and PreProcessDisaster\_nick.ipynb <br>
-The following was done to match data sets by state regions, divisions, or counties <br>
+The following was done to match data sets by state regions, divisions, or counties. <br>
 
 __UFO Sightings__
 - Reverse geocoded latitude and longitude to get zip code using Google's Geocoding API
@@ -73,43 +73,40 @@ __Downloaded Resource List__
 For each question include your findings, what you think the result means, how might the question relate to the other/both data sets, and if you think there's anything left to explore from it. <br>
 
 __UFO Sightings__
-- How quickly does a UFO sighting get posted relative it to being seen?
+- How quickly does a UFO sighting get posted relative to it being seen? (M)
     - Show with a time series plot
-- What are the top 5 states with most UFO sightings?
+- What are the top 5 states with most UFO sightings? (M)
     - Show a map of all sightings by state using color intensity
     - What are the top 5 UFO shapes seen in these states?
-- During what month(s) are most UFO sightings seen?
+- During what month(s) are most UFO sightings seen? (M)
     - Show with a time series plot
-    - Of those month(s) with most UFO sightings what top 3 regions are reporting those sightings?
-- Is there a difference between UFO shapes seen in the different regions of the US? How about divisions?
-    - Use subplots for regions/divisons with horizontal barplots of the UFO shape counts in descending order
+    - Of those month(s) with most UFO sightings what are the top 3 regions reporting those sightings?
+- Is there a difference between UFO shapes seen in the different regions of the US? (M)
+    - Use subplots for regions with horizontal barplots of the UFO shape counts in descending order
 
 __Disasters Declaration__
-- Whare are the top 5 states with most disasters?
-    - Show a map of all disasters using color intensity
+- What are the top 5 states with most declared disasters? (Z)
+    - Show a map of all disasters affecting counties using color intensity
     - What are the top 3 disasters that affected these states?
-- During what month(s) do disasters happen most?
+- During what month(s) are disasters declared most? (Z)
     - Show with a time series plot
-    - Of those month(s) with most disasters what top 3 regions were affected?
-- What's the top 3 longest declared disasters
-     - What counties were affected
-     - Show this on a map with color referring to the year and disaster type/title
+    - Of those month(s) with most disasters declared what top 3 regions were affected?
+- What's the top 5 divisions with most declared disasters (Z)
+    - Use subplots for divisons with horizontal barplots of types of disaster counts in descending order
 
 __UFO Sightings & Disasters __
-- Show a map of all sightings and disasters
-- Show a time series of UFO sightings and disasters by month
-- What top county has been affected most by disasters
-    - What kinds of UFO shapes have been reported there?
-    - Show with a horizontal barplot
-- What county has the most reported UFO sightings
-    - What are the types of disasters that happen there?
-    - Show with a horizontal barplot
-- Choose the state with the longest declared disaster on a given month/year
+- Show a bubble map of all sightings and disasters (Z)
+- Show a time series of average count of UFO sightings and count of disasters by month (Z)
+- What top county has been affected most by disasters (E)
+    - What kinds of UFO shapes have been reported there? Show with a descending horizontal barplot
+- What county has the most reported UFO sightings (E)
+    - What are the types of disasters that happen there? Show with a descending horizontal barplot
+- Choose the state with the longest declared disaster on a given month/year (E)
     - What counties were affected?
-    - Match the counties in the UFO sightings to those of in the disasters
+    - Match all the counties in the UFO sightings to those of in the disasters
     - Are there any reported sightings that fall between that month/year?
     - If so, how many sightings were reported and what types of UFO shapes were seen?
-- What is the top UFO sighting that was reported by multiple people on a given day?
+- What is the top UFO sighting that was reported by multiple people on a given day? (E)
     - What county was it in?
-    - What kind of disasters happen in that county/neighboring counties?
-    - What shape of UFOs are being seen in that county over time?
+    - What kind of disasters happen in that county?
+    - What shape of UFOs are being seen in that county 5 years before after that incident? Show with a time series plot
