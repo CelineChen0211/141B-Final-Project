@@ -94,7 +94,7 @@ __Disasters Declaration__
 - What's the top 5 divisions with most declared disasters (Z)
     - Use subplots for divisons with horizontal barplots of types of disaster counts in descending order
 
-__UFO Sightings & Disasters __
+__UFO Sightings & Disasters__
 - Show a bubble map of all sightings and disasters (Z)
 - Show a time series of average count of UFO sightings and count of disasters by month (Z)
 - What top county has been affected most by disasters (E)
